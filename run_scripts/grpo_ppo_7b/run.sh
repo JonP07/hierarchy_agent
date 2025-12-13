@@ -4,8 +4,8 @@ cd /code/hongpaul-sandbox/temp/hierarchy_agent/
 
 SESSION="alfworld_ppo_grpo_7b"
 ENGINE=vllm
-SCRIPT="run_scripts/qwen_ppo_7b.sh"
-SCRIPT2="run_scripts/qwen_grpo_7b.sh"
+SCRIPT="run_scripts/grpo_ppo_7b/qwen_ppo_7b.sh"
+SCRIPT2="run_scripts/grpo_ppo_7b/qwen_grpo_7b.sh"
 
 # Run A
 SEED_A=1
